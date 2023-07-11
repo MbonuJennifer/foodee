@@ -23,42 +23,48 @@
   <body>
     <div class="container">
       <div class="row">
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <span class="mb-0 h1 navBarBrand"
               >Food<span class="navBarBrand-suffix">ee</span></span
             >
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Restaurants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact</a>
-              </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
       <div class="container">
-        <div class="row my-4">
-          <div class="col-md-6 col-sm-12">
-            <h1>Diary of a Nigerian <span>Jollof </span>Lover</h1>
-            <p>
+        <div class="row my-4 headingRoll">
+          <div class="col-md-6 col-sm-12 align-items-center">
+            <h1 class="headingFirst">Diary of a Nigerian <span>Jollof </span>Lover</h1>
+            <p class="paraFirst">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Inventore a mollitia voluptate eaque itaque ullam unde quo
               recusandae qui sint.
             </p>
-            <button class="btn">Explore</button>
+            <button class="btn rounded-pill btnExplore">Explore</button>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
             <img
-              src="/src/images/1.jpg"
+              src="/src/images/1-no-bg.png"
               alt="This is the image of jollof rice"
             />
           </div>

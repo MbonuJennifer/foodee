@@ -38,3 +38,54 @@ body {
 .navbar .nav-item .nav-link.active {
   color: var(--pry-blue);
 }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+.headingFirst {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--pry-blue);
+  font-family: var(--pry-font);
+  width: 60%;
+}
+.paraFirst {
+  font-family: var(--sec-font);
+  width: 75%;
+  color: var(--pry-light);
+  font-size: 1rem;
+}
+.btnExplore {
+  background-color: var(--pry-pink);
+  color: var(--pry-white);
+  padding: 0.7rem 2rem;
+  font-weight: 500;
+  transition: all 100ms ease-in-out;
+}
+.btnExplore:hover {
+  color: var(--pry-pink);
+  border: 2px solid var(--pry-pink);
+  background-color: var(--pry-white);
+}
+@media (max-width: 991px) {
+  .headingFirst {
+    width: 100%;
+  }
+  .paraFirst {
+    width: 100%;
+  }
+  .btnExplore {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container .headingRoll {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+
+  }
+  .headingFirst{
+    margin-top: 3.3rem;
+  }
+}
