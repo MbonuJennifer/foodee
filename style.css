@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --pry-yellow: #f7be04;
+  --pry-pink: #ff3068;
+  --pry-blue: #272b39;
+  --pry-light: #99a1ab;
+  --pry-white: #fbfbfb;
+  --pry-font: "Raleway", sans-serif;
+  --sec-font: "Roboto", sans-serif;
+}
+.navbar {
+  font-family: var(--pry-font);
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.navBarBrand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--pry-blue);
+}
+.navBarBrand-suffix {
+  color: var(--pry-pink);
+}
+.nav a {
+  color: var(--pry-blue);
+}
+.navbar .nav-item .nav-link {
+  color: var(--pry-light);
+}
+
+.navbar .nav-item .nav-link.active {
+  color: var(--pry-blue);
+}
